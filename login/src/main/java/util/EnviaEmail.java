@@ -52,7 +52,7 @@ public class EnviaEmail {
 		     Session session = Session.getDefaultInstance(properties, new javax.mail.Authenticator() {
 		    	 
 		            protected PasswordAuthentication getPasswordAuthentication() {
-		                   return new PasswordAuthentication("leticia.gonzalez@norber.com.br", "lelenana@123");
+		                   return new PasswordAuthentication("leticia.gonzalez@norber.com.br", "sucrilhos*040507");
 		            }
 		     });
 		 
@@ -65,11 +65,11 @@ public class EnviaEmail {
 
 	         // Set To: header field of the header.
 	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(email1));
-	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(email2));
-	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(email3));
-	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(email4));
-	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(email5));
-	         message.addRecipient(Message.RecipientType.TO,new InternetAddress(email6));
+	         //message.addRecipient(Message.RecipientType.TO,new InternetAddress(email2));
+	         //message.addRecipient(Message.RecipientType.TO,new InternetAddress(email3));
+	         //message.addRecipient(Message.RecipientType.TO,new InternetAddress(email4));
+	         //message.addRecipient(Message.RecipientType.TO,new InternetAddress(email5));
+	         //message.addRecipient(Message.RecipientType.TO,new InternetAddress(email6));
 
 	         // Set Subject: header field
 	         message.setSubject("Erro no Login");

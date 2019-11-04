@@ -47,7 +47,7 @@ public class EnviaEmail {
 		     Session session = Session.getDefaultInstance(properties, new javax.mail.Authenticator() {
 		    	 
 		            protected PasswordAuthentication getPasswordAuthentication() {
-		                   return new PasswordAuthentication("leticia.gonzalez@norber.com.br", "lelenana@123");
+		                   return new PasswordAuthentication("leticia.gonzalez@norber.com.br", "sucrilhos*040507");
 		            }
 		     });
 		 
