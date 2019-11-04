@@ -15,8 +15,8 @@ public class SeleniumUtil extends SeleniumDriver {
 	
 	public SeleniumUtil(WebDriver driver) {
 		this.driver = driver;
-		//jse = (JavascriptExecutor) driver;
-		//actions = new Actions(driver);
+		jse = (JavascriptExecutor) driver;
+		actions = new Actions(driver);
 		driverWait = new WebDriverWait(driver, 10);
 	}
 
