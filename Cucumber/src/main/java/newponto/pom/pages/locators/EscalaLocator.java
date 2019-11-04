@@ -14,6 +14,11 @@ public enum EscalaLocator {
 //    H_TURMA
 //    NR17
 //    UTILIZA_GRADE
+//    CARGA_SEMANAL
+//    CARGA_SEMANAL_ESOCIAL
+//    CARGA_MENSAL
+//    SEMANAL
+    
     
     
     
