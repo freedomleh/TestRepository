@@ -19,6 +19,5 @@ public class SeleniumUtil extends SeleniumDriver {
 		actions = new Actions(driver);
 		driverWait = new WebDriverWait(driver, 10);
 	}
-	
-	
+
 }
